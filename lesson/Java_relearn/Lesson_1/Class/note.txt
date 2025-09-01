@@ -1,0 +1,2 @@
+Class là khuôn mẫu
+Object là thể hiện thực thể của class

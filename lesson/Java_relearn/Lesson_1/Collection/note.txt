@@ -1,0 +1,32 @@
+1. Java Collection Framework là gì?
+
+Collection = tập hợp các object (giống như “container” chứa dữ liệu).
+
+Java Collection Framework (JCF) là tập hợp các interface + class giúp quản lý dữ liệu hiệu quả.
+
+Các nhóm chính:
+
+List → dữ liệu có thứ tự, cho phép trùng lặp.
+
+ArrayList, LinkedList, Vector.
+
+Set → dữ liệu không trùng lặp, không đảm bảo thứ tự (trừ LinkedHashSet, TreeSet).
+
+Queue/Deque → hàng đợi (FIFO), hoặc ngăn xếp (LIFO).
+
+Queue, PriorityQueue, ArrayDeque.
+
+Map → lưu theo key → value, key không trùng.
+
+HashMap, LinkedHashMap, TreeMap.
+
+
+2. Khi nào dùng cái gì?
+
+List: cần lưu nhiều phần tử, có thứ tự, có thể trùng (vd: danh sách sinh viên trong lớp).
+
+Set: cần dữ liệu không trùng (vd: danh sách email đăng ký).
+
+Map: cần ánh xạ key → value (vd: StudentID → StudentName).
+
+Queue: xử lý theo hàng đợi (vd: hệ thống ticket support).
